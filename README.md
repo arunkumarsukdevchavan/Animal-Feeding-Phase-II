@@ -20,8 +20,11 @@ To develop a animal feeding game Phase-2 using unity.
 ### Step 7: For all the animal prefabs and food in th inspector (below the  layer ) drop down the override option and choose apply all.
 
 ## Program:
-```
+Name : ARUN KUMAR SUKDEV CHAVAN
+
+Reg.no : 212222230013
 SPAWN MANAGER:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,9 +57,10 @@ public class SpawnManager : MonoBehaviour
         Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);   
     }
 }
-
+```
 
 DETECT COLLISION:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -82,7 +86,7 @@ public class DetectCollision : MonoBehaviour
 }
 ```
 ## Output:
-![image](https://github.com/kaviya2839/Animal-Feeding-Phase-II/assets/120553351/82cd0468-42c2-4205-abe4-e6b238caee9f)
+![image](https://github.com/arunkumarsukdevchavan/Animal-Feeding-Phase-II/assets/118343978/1c3ff50f-9b40-4312-9753-797e42e3676d)
 
 ## Result:
 Thus, Animal feeding game Phase-2 using unity is developed successfully.
